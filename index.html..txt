@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Simple Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header { background: #2196f3; color: white; padding: 12px; text-align: center; }
+    .container { padding: 10px; }
+    .product {
+      background: white;
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 6px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .product img { width: 100%; max-height: 200px; object-fit: cover; border-radius: 4px; }
+    .name { font-weight: bold; margin-top: 6px; }
+    .price { color: #388e3c; margin: 4px 0; }
+    .btn {
+      display: inline-block;
+      padding: 8px 12px;
+      background: #ff5722;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>My Simple Shop</h2>
+  </header>
+
+  <div class="container">
+    <!-- Product 1 -->
+    <div class="product">
+      <img src="https://via.placeholder.com/400x200?text=Product+1" alt="Product 1">
+      <div class="name">Product 1 Name</div>
+      <div class="price">₹299</div>
+      <a class="btn" href="https://wa.me/918690040243?text=Hi,%20I%20want%20to%20buy%20Product%201">Order on WhatsApp</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+      <img src="https://via.placeholder.com/400x200?text=Product+2" alt="Product 2">
+      <div class="name">Product 2 Name</div>
+      <div class="price">₹499</div>
+      <a class="btn" href="https://wa.me/918690040243?text=Hi,%20I%20want%20to%20buy%20Product%202">Order on WhatsApp</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product">
+      <img src="https://via.placeholder.com/400x200?text=Product+3" alt="Product 3">
+      <div class="name">Product 3 Name</div>
+      <div class="price">₹699</div>
+      <a class="btn" href="https://wa.me/918690040243?text=Hi,%20I%20want%20to%20buy%20Product%203">Order on WhatsApp</a>
+    </div>
+  </div>
+</body>
+</html>
